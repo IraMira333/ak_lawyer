@@ -7,6 +7,13 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +29,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+.wrapperFT {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainFT {
+  flex: 1 0 auto;
 }

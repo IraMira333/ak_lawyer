@@ -1,5 +1,11 @@
 .header {
-  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+
+  border-bottom-color: rgb(225, 225, 225);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 .nav-list {
@@ -10,12 +16,36 @@
 }
 
 .nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.54;
+  cursor: pointer;
+  color: rgb(49, 49, 49);
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #747bff;
+}
+
+.footer {
+  background-color: rgb(245, 247, 250);
+  border-top-color: rgb(225, 225, 225);
+  border-top-style: solid;
+  border-top-width: 1px;
+  flex: 0 0 auto;
+  padding: 20px;
+}
+.footer-span {
+  color: rgb(255, 122, 0);
+  margin-right: 10px;
+}
+
+.footer-h5 {
+  font-family: Lora, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+
+  line-height: 1.3;
 }
